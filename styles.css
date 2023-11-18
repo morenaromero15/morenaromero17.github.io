@@ -1,0 +1,177 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 10px;
+  padding: 0;
+   box-sizing: border-box;
+ }
+
+ .main {
+   padding: 1.5em;
+   height: 100vh;
+   background: linear-gradient(to bottom, rgb(0 0 0 / .25),rgb(0 0 0 / .25)), url("img/fondo-caribe.jpg");
+   background-position: center center;
+   background-size: cover;
+   position: relative;
+   overflow: hidden;
+ }
+
+ @media (max-width:768px){
+   .main .center .searh{
+     width: 500px;
+   }
+ }
+
+body {
+   background-color: rgb(176, 116, 43);
+   border: solid;
+}
+
+nav {
+   background-color: #333;
+   font-size: medium;
+   text-align: right;
+}
+
+nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+nav ul li {
+   display: inline-block;
+}
+
+nav ul li a {
+   color: #fff;
+   text-decoration: none;
+   padding: 10px 20px;
+}
+
+nav ul li a:hover {
+   background-color: #555;
+}
+
+
+ul {
+   background-color: black;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+a:hover {
+   background-color: gray;
+   color: black;
+   transition: background-color 0.3s ease;
+}
+
+h1 {
+   
+  text-align: center;
+    border-bottom: 4px solid #c97d1a;
+   text-transform: uppercase;
+   padding: 10px;
+   margin: 10px ;
+   font-size: 40px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-ser
+}
+
+h2{
+   
+   text-align: center;
+   border-bottom: 4px solid #c97d1a;
+   text-transform: uppercase;
+   padding: 10px;
+   margin: 6
+   0px ;
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+   
+.imagen{
+   text-align: center;
+}
+
+.imagendos{
+   text-align: center;
+}
+.aside{
+   background-color: black;
+}
+
+.formulario {
+   background-color: white;
+   text-align: left;
+   margin: 20px;
+   height: 459px;
+   width: 400px;
+}
+
+body {
+   font-size: 16px;
+}
+
+@media (min-width: 768px){
+   body{
+       font-size: 20px;
+   }
+}
+
+@media (min-width: 1200px){
+   body{
+       font-size: 24px;
+   }
+}
+.contenedor-padre {
+   display: grid;
+   grid-template-columns: auto  auto;
+   justify-content: center;
+   
+}
+
+.contenedor-hijo {
+   color: black;
+   object-fit: cover;
+   margin: 10px;
+   width: 50%;
+   height: 100%;
+}
+  
+body{
+background-color: rgb(143, 99, 46);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
